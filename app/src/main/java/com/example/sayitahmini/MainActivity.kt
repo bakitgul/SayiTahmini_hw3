@@ -33,7 +33,7 @@ class MainActivity : AppCompatActivity() {
             if(tahmin == rastgeleSayi){
                 binding.textBilgi.text = "Tebrikler Bildiniz Skorunuz : $skor"
                 binding.textSonuc.text = "-"
-                //binging.buttonTahmin.setEnabled(false)
+                binding.buttonTahminEt.setEnabled(false)
 
             }
 
@@ -53,7 +53,7 @@ class MainActivity : AppCompatActivity() {
 
             if(sayac == 0){
                 binding.textSonuc.text = "Tahimin Hakkınız Bitti"
-                // binding.buttonTahmin.setEnabled(false)
+                binding.buttonTahminEt.setEnabled(false)
 
 
             }
